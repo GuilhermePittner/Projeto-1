@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MoodMusic</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Como você está se sentindo?</h1>
+    </header>
+
+    <main>
+        <section class="botoes">
+            <!-- .botoes -->
+
+            <div class="centralizar">
+                <button class="btn feliz" id="happyMood" onclick="feliz()">Feliz</button>
+                <button class="btn triste" id="sadMood" onclick="triste()">Triste</button>
+                <button class="btn apaixonado" id="loveMood" onclick="apaixonado()">Apaixonado</button>
+                <button class="btn inspirado" id="inspiredMood" onclick="inspirado()">Inspirado</button>
+                <button class="btn partido" id="hearthbrokenMood" onclick="hearthbroken()">Hearthbroken</button>
+                <button class="btn relaxando" id="chillingMood" onclick="chilling()">Chilling</button>
+                <br>
+                <br>
+            </div>
+            <div class="centralizar principal">
+               
+                <button class="btn gerar" onclick="checar()">MoodMusic</button>
+                <button class="btn limpar" id="limparBotoes" onclick="limpando()">Clear Moods</button>
+               
+                <p id="showMusic" class="mostrarMusica"><br></p>
+                <p id="reiniciar"></p>
+            </div>
+        </section> <!-- .botoes -->
+    </main>
+    <script src="musicas/informacoes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

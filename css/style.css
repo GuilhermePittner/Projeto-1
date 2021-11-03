@@ -1,0 +1,250 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,100&display=swap');
+
+body{
+   /* background-image: linear-gradient(to right, #D9A0CA, #230E26); */
+    background-image: linear-gradient(to right, #F28DA8, #5EE3F2);
+}
+
+header > h1{
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 100;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.principal{
+    padding: 15px;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+/* BOTÃO FELIZ */
+/* BOTÃO FELIZ */
+/* BOTÃO FELIZ */
+
+.feliz {
+    border: 3px solid #ff8c004d;
+    color: rgba(255, 166, 0, 0.424);
+    background: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+}
+  
+.feliz:hover {
+    background: linear-gradient(to right, #FEAA00, #FE7200);
+    color: white;
+    border: none;
+}
+
+/* BOTÃO TRISTE */
+/* BOTÃO TRISTE */
+/* BOTÃO TRISTE */
+
+.triste {
+    border: 3px solid #2037b744;
+    color: rgba(0, 0, 255, 0.253);
+    background: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+}
+  
+.triste:hover {
+    background: linear-gradient(to left, #4670E0, #06279B);
+    color: white;
+    border: none;
+}       
+
+/* BOTÃO APAIXONADO */
+/* BOTÃO APAIXONADO */
+/* BOTÃO APAIXONADO */
+
+.apaixonado {
+    border: 3px solid #e1599848;
+    color: #d83f814b;
+    background: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+}
+  
+.apaixonado:hover {
+    background: linear-gradient(to right, #FBB3C7, #D83F82);
+    color: white;
+    border: none;
+}   
+
+/* BOTÃO INSPIRADO */
+/* BOTÃO INSPIRADO */
+/* BOTÃO INSPIRADO */
+
+.inspirado {
+    border: 3px solid #3e8f0842; 
+    color: #32890348;
+    background: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+}
+  
+.inspirado:hover {
+    background: linear-gradient(to left, #87CA1B, #3E9009);
+    color: white;
+    border: none;
+}  
+
+/* BOTÃO CORAÇÃO-PARTIDO */
+/* BOTÃO CORAÇÃO-PARTIDO */
+/* BOTÃO CORAÇÃO-PARTIDO */
+
+.partido {
+    border: 3px solid #5e000052; 
+    color: #7b000050;
+    background: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+}
+  
+.partido:hover {
+    background: linear-gradient(to left, #A70101, #3E0100);
+    color: white;
+    border: none;
+} 
+
+/* BOTÃO RELAXANDO */
+/* BOTÃO RELAXANDO */
+/* BOTÃO RELAXANDO */
+
+.relaxando {
+    border: 3px solid #bf9bf25e; 
+    color: #d48cd854;
+    background: none;
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+}
+  
+.relaxando:hover {
+    background: linear-gradient(to left, #84CDF8, #BF9BF2);
+    color: white;
+    border: none;
+} 
+
+/* BOTÃO LIMPAR */
+/* BOTÃO LIMPAR */
+/* BOTÃO LIMPAR */
+
+.limpar {
+    color: white;
+    background: linear-gradient(to left, #A60311, #730202);
+    border-radius: 100px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+}
+
+/* BOTÃO FINAL */
+/* BOTÃO FINAL */
+/* BOTÃO FINAL */
+
+.gerar {
+    color: white;
+    background: linear-gradient(to left, #84CDF8, #BF9BF2);
+    border-radius: 100px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    border: 1px solid #84CDF8;
+}
+  
+/* BOTÃO REINICIAR */
+/* BOTÃO REINICIAR */
+/* BOTÃO REINICIAR */
+
+.reiniciar {
+    color: white;
+    background: linear-gradient(to left, #84CDF8, #BF9BF2);
+    border-radius: 100px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    border: none;
+}
+
+.esconder{
+    display: none;
+}
+
+/* FIXAR */
+
+.fixar-feliz{
+    background: linear-gradient(to right, #FEAA00, #FE7200);
+    color: white;
+    border: none;
+}
+
+.fixar-triste{
+    background: linear-gradient(to left, #4670E0, #06279B);
+    color: white;
+    border: none;
+}
+
+.fixar-apaixonado{
+    background: linear-gradient(to right, #FBB3C7, #D83F82);
+    color: white;
+    border: none;
+}
+
+.fixar-inspirado{
+    background: linear-gradient(to left, #87CA1B, #3E9009);
+    color: white;
+    border: none;
+}
+
+.fixar-partido{
+    background: linear-gradient(to left, #A70101, #3E0100);
+    color: white;
+    border: none;
+}
+
+.fixar-relaxando{
+    background: linear-gradient(to left, #84CDF8, #BF9BF2);
+    color: white;
+    border: none;
+}
+
+.botoesMeio{
+    display: flex;
+    margin: auto;
+}
+
+.mostrarMusica{
+    font-size: 16pt;
+    font-family: 'Azeret Mono', monospace;
+}
+
+a{
+    text-decoration: none;
+}
