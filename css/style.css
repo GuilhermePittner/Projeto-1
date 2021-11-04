@@ -144,12 +144,13 @@ header > h1{
     height: 50px;
     font-weight: bold;
 }
-  
+
 .relaxando:hover {
     background: linear-gradient(to left, #84CDF8, #BF9BF2);
     color: white;
     border: none;
 } 
+
 
 /* BOTÃO LIMPAR */
 /* BOTÃO LIMPAR */

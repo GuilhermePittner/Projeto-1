@@ -15,10 +15,6 @@ var sorteio
 //variável de sorteio//
 
 //arrumar a tela para o usuário re-inserir os números
-function limpando(){
-    limpar()
-    descolorir()
-}
 function limpar(){
     valorFeliz = 0; valorTriste = 0;valorApaixonado = 0;valorInspirado = 0;valorHearthbroken = 0;valorChilling = 0;felizApaixonado = 0; felizInspirado = 0; felizChilling = 0; tristePartido = 0;  tristeChilling = 0; apaixonadoInspirado = 0;apaixonadoChilling = 0;hearthbrokenChilling = 0;excesso = 0
 }
@@ -54,6 +50,15 @@ function feliz(){
     //seção para preencher a cor do botão
     let happyMood=document.querySelector("#happyMood")
     happyMood.classList.add("fixar-feliz")
+
+    if (valorFeliz%2==0){
+        valorFeliz=0
+        felizApaixonado=0
+        felizInspirado=0
+        felizChilling=0
+        excesso=0
+        happyMood.classList.remove("fixar-feliz")
+    }
 }
 
 function triste(){
@@ -66,6 +71,14 @@ function triste(){
     //seção para preencher a cor do botão
     let sadMood=document.querySelector("#sadMood")
     sadMood.classList.add("fixar-triste")
+
+    if (valorTriste%2==0){
+        valorTriste=0
+        tristePartido=0
+        tristeChilling=0
+        excesso=0
+        sadMood.classList.remove("fixar-triste")
+    }
 }
 
 function apaixonado(){
@@ -79,6 +92,15 @@ function apaixonado(){
     //seção para preencher a cor do botão
     let loveMood=document.querySelector("#loveMood")
     loveMood.classList.add("fixar-apaixonado")
+
+    if (valorApaixonado%2==0){
+        valorApaixonado=0
+        felizApaixonado=0
+        apaixonadoInspirado=0
+        apaixonadoChilling=0
+        excesso=0
+        loveMood.classList.remove("fixar-apaixonado")
+    }
 }
 
 function inspirado(){
@@ -91,6 +113,14 @@ function inspirado(){
     //seção para preencher a cor do botão
     let inspiredMood=document.querySelector("#inspiredMood")
     inspiredMood.classList.add("fixar-inspirado")
+
+    if (valorInspirado%2==0){
+        valorInspirado=0
+        felizInspirado=0
+        apaixonadoInspirado=0
+        excesso=0
+        inspiredMood.classList.remove("fixar-inspirado")
+    }
 }
 
 function hearthbroken(){
@@ -103,6 +133,14 @@ function hearthbroken(){
     //seção para preencher a cor do botão
     let hearthbrokenMood=document.querySelector("#hearthbrokenMood")
     hearthbrokenMood.classList.add("fixar-partido")
+
+    if (valorHearthbroken%2==0){
+        valorHearthbroken=0
+        tristePartido=0
+        hearthbrokenChilling=0
+        excesso=0
+        hearthbrokenMood.classList.remove("fixar-partido")
+    }
 }
 
 function chilling(){
@@ -117,6 +155,16 @@ function chilling(){
     //seção para preencher a cor do botão
     let chillingMood=document.querySelector("#chillingMood")
     chillingMood.classList.add("fixar-relaxando")
+
+    if (valorChilling%2==0){
+        valorChilling=0
+        felizChilling=0
+        tristeChilling=0
+        apaixonadoChilling=0
+        hearthbrokenChilling=0
+        excesso=0
+        chillingMood.classList.remove("fixar-relaxando")
+    }
 }
 
 function checar(){

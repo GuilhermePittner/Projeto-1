@@ -2,6 +2,26 @@ let songs01 = [{
     "autor": "blink182",
     "nome": "The first time",
     "link": "https://www.youtube.com/watch?v=ayXPRkTU3ZM"
+},
+{
+    "autor": "blink182",
+    "nome": "All the small things",
+    "link": "https://www.youtube.com/watch?v=5_PBNZXlzp0"
+},
+{
+    "autor": "blink182",
+    "nome": "Happy Days",
+    "link": "https://www.youtube.com/watch?v=ahgkSf8qCd4"
+},
+{
+    "autor": "Capital Cities",
+    "nome": "Safe And Sound",
+    "link": "https://www.youtube.com/watch?v=njvA03rMHx4"
+},
+{
+    "autor": "Foster The People",
+    "nome": "Pumped Up Kicks",
+    "link": "https://www.youtube.com/watch?v=rnO-MflYxCw"
 }]
 
 let songs02 = [{
@@ -18,6 +38,36 @@ let songs02 = [{
     "autor": "Simple Plan",
     "nome": "Perfect",
     "link": "https://www.youtube.com/watch?v=RUi54JTgL5s"
+},
+{
+    "autor": "Bullet For My Valentine",
+    "nome": "Tears Don't Fall",
+    "link": "https://www.youtube.com/watch?v=O__jrH6MNFc"
+},
+{
+    "autor": "Audioslave",
+    "nome": "Like a Stone",
+    "link": "https://www.youtube.com/watch?v=7QU1nvuxaMA"
+},
+{
+    "autor": "blink182",
+    "nome": "Adam's song",
+    "link": "https://www.youtube.com/watch?v=2MRdtXWcgIw"
+},
+{
+    "autor": "Charlie Brown Jr",
+    "nome": "Meu novo mundo",
+    "link": "https://www.youtube.com/watch?v=SmzbKhnCJ0Y"
+},
+{
+    "autor": "Linkin Park",
+    "nome": "Heavy",
+    "link": "https://www.youtube.com/watch?v=5dmQ3QWpy1Q"
+},
+{
+    "autor": "blink182",
+    "nome": "Stay together for the kids",
+    "link": "https://www.youtube.com/watch?v=516EQmFQTBs"
 }]
 
 let songs03 = [{
@@ -34,6 +84,11 @@ let songs03 = [{
     "autor": "Wünsche",
     "nome": "Flower",
     "link": "https://www.youtube.com/watch?v=Hs2r3IRSZg0"
+},
+{
+    "autor": "Gym Class Heroes",
+    "nome": "Stereo Hearts",
+    "link": "https://www.youtube.com/watch?v=_U0PrwLpb_Q"
 }]
 
 let songs04 = [{
@@ -45,6 +100,26 @@ let songs04 = [{
     "autor": "blink182",
     "nome": "Darkside",
     "link": "https://www.youtube.com/watch?v=4cbSPNZryzo"
+},
+{
+    "autor": "Audioslave",
+    "nome": "Be yourself",
+    "link": "https://www.youtube.com/watch?v=WC5FdFlUcl0"
+},
+{
+    "autor": "blink182",
+    "nome": "Adam's song",
+    "link": "https://www.youtube.com/watch?v=2MRdtXWcgIw"
+},
+{
+    "autor": "Charlie Brown Jr",
+    "nome": "Dias de luta, dias de glória",
+    "link": "https://www.youtube.com/watch?v=EYpo0U5g2wk"
+},
+{
+    "autor": "Avicii",
+    "nome": "I Could Be The One",
+    "link": "https://www.youtube.com/watch?v=bek1y2uiQGA"
 }]
 
 let songs05 = [{
@@ -70,8 +145,13 @@ let songs06 = [{
 },
 {
     "autor": "Angels & Airwaves",
-    "nome": "Como tudo deve ser",
-    "link": "https://www.youtube.com/watch?v=k7pr4VTk5cQ"  
+    "nome": "Losing My Mind",
+    "link": "https://www.youtube.com/watch?v=MPsCAvgdkzo"  
+},
+{
+    "autor": "Twenty One Pilots",
+    "nome": "Stressed out",
+    "link": "https://www.youtube.com/watch?v=pXRviuL6vMY"
 }]
 
 let songs07 = [{
@@ -93,6 +173,11 @@ let songs07 = [{
     "autor": "Calvin Harris",
     "nome": "I need your love",
     "link": "https://www.youtube.com/watch?v=AtKZKl7Bgu0"
+},
+{
+    "autor": "Avicii",
+    "nome": "Waiting For Love",
+    "link": "https://www.youtube.com/watch?v=cHHLHGNpCSA"
 }]
 
 let songs08 = [{
@@ -126,6 +211,21 @@ let songs10 = [{
     "autor": "Three Days Grace",
     "nome": "I hate everything about You",
     "link": "https://www.youtube.com/watch?v=d8ekz_CSBVg"
+},
+{
+    "autor": "Slipknot",
+    "nome": "Snuff",
+    "link": "https://www.youtube.com/watch?v=Yi0YbsT0TJ0"
+},
+{
+    "autor": "CPM22",
+    "nome": "Não Sei Viver Sem Ter Você",
+    "link": "https://www.youtube.com/watch?v=iQhVPNY7S9k"
+},
+{
+    "autor": "Charlie Brown Jr",
+    "nome": "Dias de luta, dias de glória",
+    "link": "https://www.youtube.com/watch?v=EYpo0U5g2wk"
 }]
 
 let songs11 = [{
