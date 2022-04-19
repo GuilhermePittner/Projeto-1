@@ -14,6 +14,10 @@ var excesso = 0
 var sorteio
 //variável de sorteio//
 
+//limpar botoes//
+let limparbotoes=document.querySelector("#limparBotoes")
+//limpar botoes//
+
 //arrumar a tela para o usuário re-inserir os números
 function limpar(){
     valorFeliz = 0; valorTriste = 0;valorApaixonado = 0;valorInspirado = 0;valorHearthbroken = 0;valorChilling = 0;felizApaixonado = 0; felizInspirado = 0; felizChilling = 0; tristePartido = 0;  tristeChilling = 0; apaixonadoInspirado = 0;apaixonadoChilling = 0;hearthbrokenChilling = 0;excesso = 0
@@ -190,6 +194,8 @@ function checar(){
 
         var reiniciar=document.querySelector("#reiniciar")
         reiniciar.innerHTML=(`<button class="btn reiniciar" id="reiniciarMood" onclick="again()">Again!</button>`)
+
+        limparbotoes.classList.add("limpar-sumir")
 
         
     } else if (felizInspirado==2){
