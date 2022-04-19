@@ -22,6 +22,11 @@ let songs01 = [{
     "autor": "Foster The People",
     "nome": "Pumped Up Kicks",
     "link": "https://www.youtube.com/watch?v=rnO-MflYxCw"
+},
+{
+    "autor": "blink182",
+    "nome": "Anthem Part Two",
+    "link": "https://www.youtube.com/watch?v=s_hzK4DkNSI"
 }]
 
 let songs02 = [{
@@ -68,6 +73,21 @@ let songs02 = [{
     "autor": "blink182",
     "nome": "Stay together for the kids",
     "link": "https://www.youtube.com/watch?v=516EQmFQTBs"
+},
+{
+    "autor": "Projota",
+    "nome": "Desci a ladeira",
+    "link": "https://www.youtube.com/watch?v=KQDaYpXDJ34"
+},
+{
+    "autor": "Timbaland",
+    "nome": "Apologize",
+    "link": "https://www.youtube.com/watch?v=rF5oITEq43Q"
+},
+{
+    "autor": "Ashley Eriksson",
+    "nome": "Island Song",
+    "link": "https://www.youtube.com/watch?v=kwxRqEjmfxM"
 }]
 
 let songs03 = [{
@@ -89,6 +109,11 @@ let songs03 = [{
     "autor": "Gym Class Heroes",
     "nome": "Stereo Hearts",
     "link": "https://www.youtube.com/watch?v=_U0PrwLpb_Q"
+},
+{
+    "autor": "Rebecca Sugar",
+    "nome": "Love like You",
+    "link": "https://www.youtube.com/watch?v=GDTD24KsdGc"
 }]
 
 let songs04 = [{
@@ -120,6 +145,16 @@ let songs04 = [{
     "autor": "Avicii",
     "nome": "I Could Be The One",
     "link": "https://www.youtube.com/watch?v=bek1y2uiQGA"
+},
+{
+    "autor": "Rashid e Projota",
+    "nome": "Plantar o bem",
+    "link": "https://www.youtube.com/watch?v=VvoAlhCg-z8"
+},
+{
+    "autor": "Rashid",
+    "nome": "Mil Cairão",
+    "link": "https://www.youtube.com/watch?v=xR1yyKD4930"
 }]
 
 let songs05 = [{
